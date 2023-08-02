@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Portofolio Saya</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Selamat datang di portofolio saya! Saya adalah seorang seniman berbakat yang menyukai berbagai jenis seni, termasuk ilustrasi, fotografi, dan desain grafis.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="gallery">
+            <!-- Tambahkan gambar atau karya seni Anda di sini -->
+            <img src="gambar1.jpg" alt="Karya Seni 1">
+            <img src="gambar2.jpg" alt="Karya Seni 2">
+            <!-- Tambahkan lebih banyak gambar di sini -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Jika Anda tertarik dengan karya-karya saya, jangan ragu untuk menghubungi saya melalui email di: contoh@email.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Portofolio Saya. Dibuat dengan cinta dan kreativitas.</p>
+    </footer>
+
+</body>
+</html>
+
+/* Reset tampilan default browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #444;
+    color: #fff;
+}
