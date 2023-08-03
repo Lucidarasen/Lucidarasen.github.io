@@ -3,71 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem;
-            text-align: center;
-        }
-        section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        h1 {
-            margin-top: 0;
-        }
-        p {
-            margin-bottom: 1.5rem;
-        }
-        .project {
-            margin-bottom: 20px;
-        }
-        .project h2 {
-            margin-top: 0;
-            margin-bottom: 10px;
-        }
-        .project p {
-            margin: 0;
-        }
-    </style>
+    <title>Portofolio Kreatif Saya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Portofolio Saya</h1>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Portofolio Kreatif Saya</h1>
+                <p>Selamat datang di dunia karya seni saya!</p>
+            </div>
+        </div>
     </header>
-    <section>
-        <h2>Tentang Saya</h2>
-        <p>Selamat datang di halaman portofolio saya. Saya adalah seorang web developer yang berpengalaman dalam pengembangan web menggunakan HTML, CSS, dan JavaScript.</p>
-    </section>
-    <section>
-        <h2>Proyek Terbaru</h2>
-        <div class="project">
-            <h3>Website Perusahaan ABC</h3>
-            <p>Proyek ini adalah pengembangan website untuk perusahaan ABC. Saya bertanggung jawab dalam merancang tata letak dan mengimplementasikan interaksi pada halaman.</p>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang seniman kreatif dengan minat dalam ilustrasi, fotografi, dan desain grafis. Karya-karya saya mencerminkan imajinasi dan visi unik saya dalam dunia seni.</p>
         </div>
-        <div class="project">
-            <h3>Aplikasi To-Do List</h3>
-            <p>Aplikasi To-Do List yang saya buat menggunakan React. Aplikasi ini memungkinkan pengguna untuk mencatat tugas-tugas harian dan menandai ketika selesai.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="gallery">
+                <!-- Tambahkan gambar atau karya seni Anda di sini -->
+                <img src="gambar1.jpg" alt="Karya Seni 1">
+                <img src="gambar2.jpg" alt="Karya Seni 2">
+                <!-- Tambahkan lebih banyak gambar di sini -->
+            </div>
         </div>
     </section>
-    <section>
-        <h2>Kontak</h2>
-        <p>Jika Anda tertarik untuk bekerja sama atau ingin bertanya lebih lanjut, silakan hubungi saya melalui email di: <a href="mailto:nama@example.com">nama@example.com</a></p>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Jika Anda tertarik dengan karya-karya saya, silakan hubungi saya melalui email di: contoh@email.com</p>
+        </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Portofolio Kreatif Saya. Dibuat dengan cinta dan kreativitas.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
-
